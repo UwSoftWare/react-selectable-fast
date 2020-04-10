@@ -57,10 +57,6 @@
     "Valery Bugakov <skymk1@gmail.com> (https://github.com/valerybugakov/)"
   ],
   "license": "MIT",
-  "files": [
-    "lib",
-    "dist"
-  ],
   "homepage": "https://github.com/valerybugakov/react-selectable-fast#readme",
   "directories": {
     "example": "example"
