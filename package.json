@@ -8,6 +8,7 @@
   },
   "main": "lib/index.js",
   "scripts": {
+    "install": "npm run build:prod",
     "clean": "rimraf ./lib ./dist",
     "watch": "webpack --watch",
     "build": "webpack",
