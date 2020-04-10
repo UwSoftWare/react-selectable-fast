@@ -13,7 +13,7 @@
     "watch": "webpack --watch",
     "build": "webpack",
     "transpile": "tsc",
-    "build:prod": "cross-env NODE_ENV=production webpack --config webpack.config.prod.js",
+    "build:prod": "NODE_ENV=production webpack --config webpack.config.prod.js",
     "prepublishOnly": "yarn lint && yarn clean && yarn build:prod && yarn transpile",
     "prettier": "prettier --write src/**/*.{js,ts,tsx} example/src/**/*.{js,ts,tsx} .js",
     "lint:basic": "tsc --pretty --noEmit && eslint --fix --format codeframe",
